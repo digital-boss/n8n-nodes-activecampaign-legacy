@@ -101,12 +101,12 @@ function addAdditionalFields(body: IDataObject, additionalFields: IDataObject) {
 
 export class ActiveCampaignLegacy implements INodeType {
 	description: INodeTypeDescription = {
-		displayName: 'ActiveCampaignLegacy',
+		displayName: 'ActiveCampaign (Legacy)',
 		name: 'activeCampaignLegacy',
 		group: ['transform'],
 		version: 1,
 		subtitle: '={{$parameter["operation"] + ": " + $parameter["resource"]}}',
-		description: 'Create and edit data in ActiveCampaign',
+		description: 'Create and edit data in ActiveCampaign (Legacy API)',
 		defaults: {
 			name: 'ActiveCampaignLegacy',
 			color: '#356ae6',

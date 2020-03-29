@@ -17,4 +17,4 @@ n8n
 
 
 # Latest functionality
-- Suite CRM node
+- Contains n8n support for ActiveCampaign legacy API, is useful for updating contacts as new API produces Errors

@@ -1,9 +1,9 @@
 {
-  "name": "n8n-nodes-dnc-suitecrm",
+  "name": "n8n-nodes-dnc-activecampaign-legacy",
   "version": "0.1.0",
   "author": "Iñaki Breinbauer",
   "license": "MIT",
-  "description": "Suite CRM support for n8n",
+  "description": "Contains n8n support for ActiveCampaign legacy API, is useful for updating contacts as new API produces Errors",
   "keywords": [
     "n8n",
     "nodemation",
@@ -11,13 +11,12 @@
     "digital north consulting",
     "nodes",
     "custom",
-    "suite",
-    "workflow",
-    "crm"
+    "active campaign",
+    "workflow"
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/quansenB/n8n-nodes-dnc-suitecrm.git"
+    "url": "git+https://github.com/quansenB/n8n-nodes-dnc-activecampaign-legacy.git"
   },
   "main": "index.js",
   "scripts": {
