@@ -103,6 +103,7 @@ export class ActiveCampaignLegacy implements INodeType {
 	description: INodeTypeDescription = {
 		displayName: 'ActiveCampaign (Legacy)',
 		name: 'activeCampaignLegacy',
+		icon: 'file:activeCampaign.png',
 		group: ['transform'],
 		version: 1,
 		subtitle: '={{$parameter["operation"] + ": " + $parameter["resource"]}}',
