@@ -1,4 +1,4 @@
-# inofficial release
+# Inofficial release
 
 Incomplete and just for testing purposes.
 
