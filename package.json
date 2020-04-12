@@ -2,7 +2,7 @@
   "name": "n8n-nodes-dnc-activecampaign-legacy",
   "version": "0.1.0",
   "author": "Iñaki Breinbauer",
-  "license": "MIT",
+  "license": "GPL-3.0",
   "description": "Contains n8n support for ActiveCampaign legacy API, is useful for updating contacts as new API produces Errors",
   "keywords": [
     "n8n",
