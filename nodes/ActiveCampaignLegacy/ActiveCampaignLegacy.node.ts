@@ -20,7 +20,7 @@ import {
  * @returns {Promise<any>}
  */
 export async function activeCampaignApiRequest(this: IHookFunctions | IExecuteFunctions, method: string, endpoint: string, body: IDataObject, query?: IDataObject, dataKeys?: string[]): Promise<any> { // tslint:disable-line:no-any
-	const credentials = this.getCredentials('activeCampaignApi');
+	const credentials = await this.getCredentials('activeCampaignApi');
 	if (credentials === undefined) {
 		throw new Error('No credentials got returned!');
 	}
@@ -61,7 +61,7 @@ export async function activeCampaignApiRequest(this: IHookFunctions | IExecuteFu
 
 		return returnData;
 
-	} catch (error) {
+	} catch (error: any) {
 		if (error.statusCode === 403) {
 			// Return a clear error
 			throw new Error('The ActiveCampaign credentials are not valid!');
