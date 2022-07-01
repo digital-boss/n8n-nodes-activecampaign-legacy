@@ -57,3 +57,7 @@ Special thanks to [N8n nodemation](https://n8n.io) workflow automation by Jan Ob
 Support by [digital-north-consulting.com](https://digital-north-consulting.com).
 
 This node was programmed with :heart: by Jan Oberhauser. Because it is not intended to be integrated in the official ActiveCampaign node it was extended and prepared for inofficial release by Iñaki Breinbauer [quansenB](https://github.com/quansenB).
+
+# License
+
+[MIT](https://github.com/n8n-io/n8n-nodes-starter/blob/master/LICENSE.md)

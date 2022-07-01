@@ -2,7 +2,7 @@
   "name": "@digital-boss/n8n-nodes-activecampaign-legacy",
   "version": "1.0.0",
   "author": "Iñaki Breinbauer",
-  "license": "GPL-3.0",
+  "license": "MIT",
   "description": "Contains n8n support for ActiveCampaign legacy API, is useful for updating contacts as new API produces Errors",
   "keywords": [
     "n8n",
